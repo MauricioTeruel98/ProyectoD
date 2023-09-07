@@ -7,7 +7,9 @@ const Layout = () => {
         <>
             <Navbar />
 
-            <Outlet />
+            <div className='relative z-30'>
+                <Outlet />
+            </div>
 
         </>
     )
