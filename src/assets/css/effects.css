@@ -1,0 +1,6 @@
+.effect-1-verde{
+    background: rgb(57,254,119);
+    background: radial-gradient(circle, rgba(57,254,119,1) 0%, rgba(124,58,237,0) 50%);
+    width: 900px;
+    height: 900px;
+}

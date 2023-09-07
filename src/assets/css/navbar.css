@@ -1,0 +1,16 @@
+#navbar:before {
+    content: "";
+    background: linear-gradient(133.61deg, #472fdb 17.33%, #39fe77 100.47%);
+    opacity: .5;
+    pointer-events: none;
+    position: absolute;
+    left: 5rem;
+    right: 5rem;
+    top: 0.5rem;
+    bottom: 0;
+    z-index: -10;
+    transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-blur: blur(64px);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+    transition: opacity .5s ease;
+}

@@ -1,8 +1,15 @@
 import React from 'react'
+import Hero from '../components/Hero'
+import BallEffects from '../components/BallEffects'
 
 const Inicio = () => {
     return (
-        <div>Inicio</div>
+        <>
+            <Hero/>
+            <div className='w-11/12 mx-auto'>
+
+            </div>
+        </>
     )
 }
 
