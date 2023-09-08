@@ -1,7 +1,6 @@
 import React from 'react'
 import '../assets/css/animation.css'
 
-
 const BackgroundEffect = () => {
     return (
         <>
@@ -19,7 +18,6 @@ const BackgroundEffect = () => {
                 <span></span>
                 <span></span>
             </div>
-
         </>
     )
 }

@@ -21,7 +21,7 @@ const menuItems = [
         id: uuid(),
         nombre: "Portfolio",
         icono: <PiBagSimpleDuotone />,
-        link: ""
+        link: "#portfolio"
     },
     {
         id: uuid(),

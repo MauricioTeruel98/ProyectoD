@@ -13,7 +13,7 @@ const Navbar = () => {
                     {
                         menuItems.map(item => (
                             <li className="tooltip tooltip-top tooltip-primary my-3 hover:scale-110 transition duration-200 ease-in-out z-50" data-tip={item.nombre} key={item.id}>
-                                <Link className='flex justify-center text-4xl' to={item.link}>
+                                <Link className='flex justify-center text-xl md:text-4xl' to={item.link}>
                                     {item.icono}
                                 </Link>
                             </li>

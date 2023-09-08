@@ -1,0 +1,42 @@
+.btn-brow{
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 20px;
+    border-radius: 5rem;
+    transform: translateY(200%);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-brow.bg-red-500{
+    left: 23px;
+}
+
+.btn-brow.bg-warning{
+    left: 45px;
+}
+
+.btn-brow.bg-success{
+    left: 67px;
+}
+
+.card-proyecto:hover .btn-brow{
+
+}
+
+.card-proyecto:hover .btn-brow.bg-red-500{
+    transform: translateY(0%);
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+}
+.card-proyecto:hover .btn-brow.bg-warning{
+    transform: translateY(0%);
+    opacity: 1;
+    transition: all 0.4s ease-in-out;
+}
+.card-proyecto:hover .btn-brow.bg-success{
+    transform: translateY(0%);
+    opacity: 1;
+    transition: all 0.6s ease-in-out;
+}
